@@ -4,7 +4,7 @@ module.exports = {
   embed: {
     color: process.env.color || "#6B41E4",
     wrongcolor: process.env.wrongcolor || "#6B41E4",
-    footertext: "Made BY Abhishek | With 💖",
+    footertext: "Stark Mc | Store",
   },
   emoji: {
     ERROR: "❌",
