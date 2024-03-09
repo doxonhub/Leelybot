@@ -4,8 +4,8 @@ const client = require("../index");
 client.on("ready", async () => {
   console.log(`${client.user.username} Is Online`);
   client.user.setActivity({
-    name: `Made By Abhishek With 💖`,
-    type: ActivityType.Watching,
+    name: `High Quality Music `,
+    type: ActivityType.Listening,
   });
 
   // loading database
