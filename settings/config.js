@@ -4,26 +4,26 @@ module.exports = {
   embed: {
     color: process.env.color || "#6B41E4",
     wrongcolor: process.env.wrongcolor || "#6B41E4",
-    footertext: "Stark Mc | Store",
+    footertext: "Leely | Music",
   },
   emoji: {
-    ERROR: "❌",
-    SUCCESS: "<a:GreenTick:1157917939509510214>",
-    disabled: "🔴",
-    enabled: "<a:GreenTick:1157917939509510214>",
+    ERROR: "<a:red_cross:1192153968781050018>",
+    SUCCESS: "<a:green_tick:1154153934915649646>>",
+    disabled: "<a:red_cross:1192153968781050018>",
+    enabled: "<a:green_tick:1154153934915649646>",
     cleared: "🧹",
     time: "⏲️",
     search: "🔎",
     ping: "🏓",
     bot: "🤖",
-    pause_resume: "<:leely_P_R:1160980920556343407>",
-    skip: "<:leely_SKIP:1160981324161618071>",
-    loop: "<:leely_LOOP:1160981057164816514>",
-    stop: "<:leely_STOP:1160981225507389520>",
-    autoplay: "<:leely_AUTOPLAY:1160981134247743548>",
+    pause_resume: "<:l_pr:1192145201049911416>",
+    skip: "<:l_skip:1192149308737335337>",
+    loop: "<:l_loop:1192145213314048147>",
+    stop: "<:l_stop:1192145226924568646>",
+    autoplay: "<:l_auto:1192145240241479791>",
   },
   // others
-  mongodb: process.env.MONGO_URL || "mongodb+srv://fakebb232:YADAV@bot.cndtqhr.mongodb.net/?retryWrites=true&w=majority",
+  mongodb: process.env.MONGO_URL || "",
   filters: {
     clear: "dynaudnorm=f=200",
     lightbass: "bass=g=8,dynaudnorm=f=200",
@@ -74,8 +74,8 @@ module.exports = {
     inviteURL:
       process.env.inviteURL ||
       `https://discord.com/api/oauth2/authorize?client_id=1118408239177011231&permissions=8&scope=applications.commands%20bot`,
-    DiscordServer: process.env.DiscordServer || `https://discord.gg/YNxUHrjxz9`,
-    VoteURL: process.env.VoteURL || `https://discord.gg/YNxUHrjxz9`,
+    DiscordServer: process.env.DiscordServer || `https://discord.gg/GDKdRJrsCw`,
+    VoteURL: process.env.VoteURL || `https://discord.gg/GDKdRJrsCw`,
     Website: `https://leelymusic.vercel.app/`,
   },
   options: {
@@ -98,6 +98,6 @@ module.exports = {
   ],
   slash: {
     global: true,
-    guildID: process.env.GUILD_ID || "SERVER_ID", // for slash command
+    guildID: process.env.GUILD_ID || "1197232541904687255", // for slash command
   },
 };
