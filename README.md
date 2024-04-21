@@ -1,4 +1,4 @@
-# Hi, I'm Kabir! 👋
+# Hi, I'm Leely! 👋
 
 I'm Kabir, a Discord Bot Developer, and here is my advanced Discord Music Bot.
 
